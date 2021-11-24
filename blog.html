@@ -22,8 +22,8 @@
         <!-- start header -->
         <header>
             <!-- start navigation -->
-            <nav class="navbar top-space navbar-expand-lg navbar-light bg-white header-light navbar-boxed border-bottom border-color-medium-gray fixed-top header-reverse-scroll">
-                <div class="container-fluid nav-header-container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-transparent header-light fixed-top header-reverse-scroll">
+                <div class="container-lg nav-header-container">
                     <div class="col-auto col-sm-6 col-lg-2 me-auto ps-lg-0">
                         <a class="navbar-brand" href="index.html">
                             <img src="images/logo-fast-blue-black.png" data-at2x="images/logo-fast-blue-black@2x.png" class="default-logo" alt="">
@@ -31,14 +31,14 @@
                             <img src="images/logo-fast-blue-black.png" data-at2x="images/logo-fast-blue-black@2x.png" class="mobile-logo" alt="">
                         </a>
                     </div>
-                    <div class="col-auto menu-order px-lg-0">
+                    <div class="col-auto col-lg-8 menu-order px-lg-0">
                         <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
                             <span class="navbar-toggler-line"></span>
                             <span class="navbar-toggler-line"></span>
                             <span class="navbar-toggler-line"></span>
                             <span class="navbar-toggler-line"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                             <ul class="navbar-nav alt-font">
                                 <li class="nav-item dropdown megamenu">
                                     <a href="#" class="nav-link">Home</a>
@@ -474,7 +474,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-auto text-end hidden-xs pe-0 font-size-0">
+                    <div class="col-auto col-lg-2 text-end pe-0 font-size-0">
                         <div class="header-search-icon search-form-wrapper">
                             <a href="javascript:void(0)" class="search-form-icon header-search-form"><i class="feather icon-feather-search"></i></a>
                             <!-- start search input -->
@@ -539,261 +539,193 @@
         </header>
         <!-- end header -->
         <!-- start page title -->
-        <section id="about" class="overlap-height wow animate__fadeIn padding-60px-bottom parallax" data-parallax-background-ratio="0.5" style="background-image:url('images/our-story-bg.jpg');" >
+        <section class="half-section bg-light-gray parallax" data-parallax-background-ratio="0.5" style="background-image:url('images/portfolio-bg2.jpg');">
             <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-xl-8 col-lg-10 text-center overlap-gap-section">
-                        <div class="w-40px h-2px bg-gradient-orange-pink separator-line-vertical margin-30px-tb d-inline-block"></div>
-                        <h3 class="alt-font font-weight-500 text-extra-dark-gray letter-spacing-minus-1px">Nos enfocamos en <span class="text-gradient-orange-pink font-weight-600">innovadores</span> creativos y <span class="text-gradient-orange-pink font-weight-600">estrategicamente</span> impulsados</h3>
+                <div class="row align-items-stretch justify-content-center extra-small-screen">
+                    <div class="col-12 col-xl-6 col-lg-7 col-md-8 page-title-extra-small text-center d-flex justify-content-center flex-column">
+                        <h1 class="alt-font text-gradient-sky-blue-pink margin-15px-bottom d-inline-block">Blog</h1>
+                        <h2 class="text-extra-dark-gray alt-font font-weight-500 letter-spacing-minus-1px line-height-50 sm-line-height-45 xs-line-height-30 no-margin-bottom">Artículos atractivos actualizados diariamente</h2>
                     </div>
                 </div>
             </div>
         </section>
         <!-- end page title -->
-        <!-- start section -->
-        <section class="position-relative bg-gradient-sky-blue-pink overflow-visible">
+        <!-- start section --> 
+        <section class="bg-light-gray pt-0 padding-ten-lr xl-padding-two-lr lg-padding-three-lr sm-no-padding-lr">
             <div class="container">
-                <div class="z-index-6 overlap-section-one-fourth">
-                    <div class="d-flex flex-column margin-9-rem-bottom sm-margin-7-rem-bottom">
-                        <div class="row">
-                            <div class="col-12 col-md-12 z-index-0">
-                                <span class="text-overlap text-uppercase title-extra-large-heavy alt-font text-center d-none d-md-block font-weight-700 opacity-1 z-index-minus-1">Nuestra Historia</span>
-                                <div class="tilt-box" data-tilt-options='{ "maxTilt": 20, "perspective": 1000, "easing": "cubic-bezier(.03,.98,.52,.99)", "scale": 1, "speed": 500, "transition": true, "reset": true, "glare": false, "maxGlare": 1 }'>
-                                    <img src="https://via.placeholder.com/1170x650" class="position-relative z-index-6 border-radius-6px" alt="">
-                                </div>
-                            </div>
-                        </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <!-- start filter navigation -->
+                        <ul class="blog-filter grid-filter nav nav-tabs justify-content-center border-0 text-uppercase font-weight-500 alt-font padding-6-rem-bottom md-padding-4-half-rem-bottom sm-padding-2-rem-bottom">
+                            <li class="nav active"><a data-filter="*" href="#">TODOS</a></li>
+                            <li class="nav"><a data-filter=".fashion" href="#">MODA</a></li>
+                            <li class="nav"><a data-filter=".travel" href="#">VIAJE</a></li>
+                            <li class="nav"><a data-filter=".lifestyle" href="#">ESTILO DE VIDA</a></li>
+                            <li class="nav"><a data-filter=".business" href="#">NEGOCIO</a></li>
+                        </ul>
+                        <!-- end filter navigation -->
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <!-- start process steps item -->
-                    <div class="col-12 col-md-4 col-sm-8 text-center process-step-style-04 sm-margin-6-rem-bottom wow animate__fadeIn">
-                        <div class="process-step-item">
-                            <span class="process-step-item-bfr bg-white"></span>
-                            <div class="process-step-item-box">
-                                <span class="process-step-item-box-bfr bg-white opacity-2 d-none d-md-block"></span>
-                                <div class="process-step-icon">
-                                    <span class="process-step-icon-bfr bg-white"></span>
-                                    <span class="process-step-number text-slate-blue alt-font font-weight-500"><span class="process-step-number-bfr bg-white"></span>1</span>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 blog-content">
+                        <ul class="blog-clean blog-wrapper grid grid-loading grid-4col xl-grid-4col lg-grid-3col md-grid-2col sm-grid-2col xs-grid-1col gutter-extra-large">
+                            <li class="grid-sizer"></li>
+                            <!-- start blog item -->
+                            <li class="grid-item fashion wow animate__fadeIn">
+                                <div class="blog-post text-center border-radius-6px bg-white box-shadow box-shadow-large-hover">
+                                    <div class="blog-post-image bg-gradient-fast-blue-purple">
+                                        <a href="blog-post-layout-01.html"><img src="https://via.placeholder.com/850x885" alt="">
+                                            <div class="blog-rounded-icon bg-white border-color-white absolute-middle-center">
+                                                <i class="feather icon-feather-arrow-right text-extra-dark-gray icon-extra-small"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="post-details padding-30px-all xl-padding-25px-lr">
+                                        <a href="blog-grid.html" class="post-author text-medium text-uppercase">23 February 2020</a>
+                                        <a href="blog-post-layout-01.html" class="text-extra-dark-gray font-weight-500 alt-font d-block">Build perfect websites</a>
+                                    </div>
                                 </div>
-                                <div class="process-content last-paragraph-no-margin">
-                                    <span class="alt-font d-block font-weight-500 text-white margin-10px-bottom">Iniciar investigación de mercado</span>
-                                    <p class="text-white opacity-7">Lorem ipsum is simply text of the printing and typesetting industry lorem Ipsum has been standard dummy</p>
-                                </div>                        
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end process steps item -->
-                    <!-- start process steps item -->
-                    <div class="col-12 col-md-4 col-sm-8 text-center process-step-style-04 sm-margin-6-rem-bottom wow animate__fadeIn" data-wow-delay="0.2s">
-                        <div class="process-step-item">
-                            <span class="process-step-item-bfr bg-white"></span>
-                            <div class="process-step-item-box">
-                                <span class="process-step-item-box-bfr bg-white opacity-2 d-none d-md-block"></span>
-                                <div class="process-step-icon">
-                                    <span class="process-step-icon-bfr bg-white"></span>
-                                    <span class="process-step-number text-slate-blue alt-font font-weight-500"><span class="process-step-number-bfr bg-white"></span>2</span>
+                            </li>
+                            <!-- end blog item -->
+                            <!-- start blog item -->
+                            <li class="grid-item travel wow animate__fadeIn" data-wow-delay="0.2s">
+                                <div class="blog-post text-center border-radius-6px bg-white box-shadow box-shadow-large-hover">
+                                    <div class="blog-post-image bg-gradient-fast-blue-purple">
+                                        <a href="blog-post-layout-02.html"><img src="https://via.placeholder.com/850x885" alt="">
+                                            <div class="blog-rounded-icon bg-white border-color-white absolute-middle-center">
+                                                <i class="feather icon-feather-arrow-right text-extra-dark-gray icon-extra-small"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="post-details padding-30px-all xl-padding-25px-lr">
+                                        <a href="blog-grid.html" class="post-author text-medium text-uppercase">18 February 2020</a>
+                                        <a href="blog-post-layout-02.html" class="text-extra-dark-gray font-weight-500 alt-font d-block">Beautiful layouts design</a>
+                                    </div>
                                 </div>
-                                <div class="process-content last-paragraph-no-margin">
-                                    <span class="alt-font d-block font-weight-500 text-white margin-10px-bottom">Discusión de la idea</span>
-                                    <p class="text-white opacity-7">Lorem ipsum is simply text of the printing and typesetting industry lorem Ipsum has been standard dummy</p>
-                                </div>                        
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end process steps item -->
-                    <!-- start process steps item -->
-                    <div class="col-12 col-md-4 col-sm-8 text-center process-step-style-04 wow animate__fadeIn" data-wow-delay="0.4s">
-                        <div class="process-step-item">
-                            <span class="process-step-item-bfr bg-white"></span>
-                            <div class="process-step-item-box">
-                                <span class="process-step-item-box-bfr bg-white opacity-2"></span>
-                                <div class="process-step-icon">
-                                    <span class="process-step-icon-bfr bg-white"></span>
-                                    <span class="process-step-number text-slate-blue alt-font font-weight-500"><span class="process-step-number-bfr bg-white"></span>3</span>
+                            </li>
+                            <!-- end blog item -->
+                            <!-- start blog item -->
+                            <li class="grid-item travel fashion wow animate__fadeIn" data-wow-delay="0.4s">
+                                <div class="blog-post text-center border-radius-6px bg-white box-shadow box-shadow-large-hover">
+                                    <div class="blog-post-image bg-gradient-fast-blue-purple">
+                                        <a href="blog-post-layout-03.html"><img src="https://via.placeholder.com/850x885" alt="">
+                                            <div class="blog-rounded-icon bg-white border-color-white absolute-middle-center">
+                                                <i class="feather icon-feather-arrow-right text-extra-dark-gray icon-extra-small"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="post-details padding-30px-all xl-padding-25px-lr">
+                                        <a href="blog-grid.html" class="post-author text-medium text-uppercase">10 January 2020</a>
+                                        <a href="blog-post-layout-03.html" class="text-extra-dark-gray font-weight-500 alt-font d-block">Online website builder</a>
+                                    </div>
                                 </div>
-                                <div class="process-content last-paragraph-no-margin">
-                                    <span class="alt-font d-block font-weight-500 text-white margin-10px-bottom">Planeación de producción</span>
-                                    <p class="text-white opacity-7">Lorem ipsum is simply text of the printing and typesetting industry lorem Ipsum has been standard dummy</p>
-                                </div>                        
-                            </div>
-                        </div>
+                            </li>
+                            <!-- end blog item -->
+                            <!-- start blog item -->
+                            <li class="grid-item lifestyle travel wow animate__fadeIn" data-wow-delay="0.6s">
+                                <div class="blog-post text-center border-radius-6px bg-white box-shadow box-shadow-large-hover">
+                                    <div class="blog-post-image bg-gradient-fast-blue-purple">
+                                        <a href="blog-post-layout-04.html"><img src="https://via.placeholder.com/850x885" alt="">
+                                            <div class="blog-rounded-icon bg-white border-color-white absolute-middle-center">
+                                                <i class="feather icon-feather-arrow-right text-extra-dark-gray icon-extra-small"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="post-details padding-30px-all xl-padding-25px-lr">
+                                        <a href="blog-grid.html" class="post-author text-medium text-uppercase">30 December 2019</a>
+                                        <a href="blog-post-layout-04.html" class="text-extra-dark-gray font-weight-500 alt-font d-block">Different layout type</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- end blog item -->
+                            <!-- start blog item -->
+                            <li class="grid-item fashion wow animate__fadeIn">
+                                <div class="blog-post text-center border-radius-6px bg-white box-shadow box-shadow-large-hover">
+                                    <div class="blog-post-image bg-gradient-fast-blue-purple">
+                                        <a href="blog-post-layout-05.html"><img src="https://via.placeholder.com/850x885" alt="">
+                                            <div class="blog-rounded-icon bg-white border-color-white absolute-middle-center">
+                                                <i class="feather icon-feather-arrow-right text-extra-dark-gray icon-extra-small"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="post-details padding-30px-all xl-padding-25px-lr">
+                                        <a href="blog-grid.html" class="post-author text-medium text-uppercase">22 November 2019</a>
+                                        <a href="blog-post-layout-05.html" class="text-extra-dark-gray font-weight-500 alt-font d-block">Elegant elements design</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- end blog item -->
+                            <!-- start blog item -->
+                            <li class="grid-item wow animate__fadeIn" data-wow-delay="0.2s">
+                                <div class="blog-post text-center border-radius-6px bg-white box-shadow box-shadow-large-hover">
+                                    <div class="blog-post-image bg-gradient-fast-blue-purple">
+                                        <a href="blog-post-layout-01.html"><img src="https://via.placeholder.com/850x885" alt="">
+                                            <div class="blog-rounded-icon bg-white border-color-white absolute-middle-center">
+                                                <i class="feather icon-feather-arrow-right text-extra-dark-gray icon-extra-small"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="post-details padding-30px-all xl-padding-25px-lr">
+                                        <a href="blog-grid.html" class="post-author text-medium text-uppercase">28 October 2019</a>
+                                        <a href="blog-post-layout-01.html" class="text-extra-dark-gray font-weight-500 alt-font d-block">The best comfort music</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- end blog item -->
+                            <!-- start blog item -->
+                            <li class="grid-item business fashion wow animate__fadeIn" data-wow-delay="0.4s">
+                                <div class="blog-post text-center border-radius-6px bg-white box-shadow box-shadow-large-hover">
+                                    <div class="blog-post-image bg-gradient-fast-blue-purple">
+                                        <a href="blog-post-layout-02.html"><img src="https://via.placeholder.com/850x885" alt="">
+                                            <div class="blog-rounded-icon bg-white border-color-white absolute-middle-center">
+                                                <i class="feather icon-feather-arrow-right text-extra-dark-gray icon-extra-small"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="post-details padding-30px-all xl-padding-25px-lr">
+                                        <a href="blog-grid.html" class="post-author text-medium text-uppercase">23 September 2019</a>
+                                        <a href="blog-post-layout-02.html" class="text-extra-dark-gray font-weight-500 alt-font d-block">Consider every mistake</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- end blog item -->
+                            <!-- start blog item -->
+                            <li class="grid-item business travel wow animate__fadeIn" data-wow-delay="0.6s">
+                                <div class="blog-post text-center border-radius-6px bg-white box-shadow box-shadow-large-hover">
+                                    <div class="blog-post-image bg-gradient-fast-blue-purple">
+                                        <a href="blog-post-layout-03.html"><img src="https://via.placeholder.com/850x885" alt="">
+                                            <div class="blog-rounded-icon bg-white border-color-white absolute-middle-center">
+                                                <i class="feather icon-feather-arrow-right text-extra-dark-gray icon-extra-small"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="post-details padding-30px-all xl-padding-25px-lr">
+                                        <a href="blog-grid.html" class="post-author text-medium text-uppercase">05 August 2019</a>
+                                        <a href="blog-post-layout-03.html" class="text-extra-dark-gray font-weight-500 alt-font d-block">Creativity is only obscure</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- end blog item -->
+                        </ul>
+                    </div>                    
+                    <!-- start pagination -->
+                    <div class="col-12 d-flex justify-content-center margin-7-half-rem-top lg-margin-5-rem-top wow animate__fadeIn">
+                        <ul class="pagination pagination-style-01 text-small font-weight-500 align-items-center">
+                            <li class="page-item"><a class="page-link" href="#"><i class="feather icon-feather-arrow-left icon-extra-small d-xs-none"></i></a></li>
+                            <li class="page-item"><a class="page-link" href="#">01</a></li>
+                            <li class="page-item active"><a class="page-link" href="#">02</a></li>
+                            <li class="page-item"><a class="page-link" href="#">03</a></li>
+                            <li class="page-item"><a class="page-link" href="#">04</a></li>
+                            <li class="page-item"><a class="page-link" href="#"><i class="feather icon-feather-arrow-right icon-extra-small  d-xs-none"></i></a></li>
+                        </ul>
                     </div>
-                    <!-- end process steps item -->
+                    <!-- end pagination -->
                 </div>
             </div>
         </section>
-        <!-- end section -->
-        
-        <!-- Nuestro Equipo Section -->
-        <section class="big-section bg-light-gray pb-0 wow animate__fadeIn">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-12 text-center margin-six-bottom">
-                        <h6 class="alt-font text-extra-dark-gray font-weight-500">Estilo de Equipo 01 <span class="text-medium-gray">(Version 03)</span></h6>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid padding-eight-lr lg-padding-15px-lr">
-                <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 justify-content-center">
-                    <!-- start team member -->
-                    <div class="col team-style-01 text-center md-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn" data-wow-delay="0.2s">
-                        <figure>
-                            <div class="team-member-image">
-                                <img alt="" src="https://via.placeholder.com/375x460">
-                                <div class="team-overlay bg-transparent-gradient-tussock-greenish-slate"></div>
-                            </div>
-                            <figcaption class="align-items-center justify-content-center d-flex flex-column padding-20px-lr padding-30px-tb">
-                                <span class="team-title d-block alt-font text-white">Alexander Harvard</span>
-                                <span class="team-sub-title text-small d-block text-white-transparent text-uppercase">Generalist consultant</span>
-                                <div class="social-icon w-100 position-absolute bottom-30px left-0px">
-                                    <a href="https://www.facebook.com/" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
-                                    <a href="https://www.instagram.com" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-instagram"></i></a>
-                                    <a href="https://twitter.com/" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-twitter"></i></a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <!-- end team member -->
-                    <!-- start team member -->
-                    <div class="col team-style-01 text-center md-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn" data-wow-delay="0.4s">
-                        <figure>
-                            <div class="team-member-image">
-                                <img alt="" src="https://via.placeholder.com/375x460">
-                                <div class="team-overlay bg-transparent-gradient-tussock-greenish-slate"></div>
-                            </div>
-                            <figcaption class="align-items-center justify-content-center d-flex flex-column padding-20px-lr padding-30px-tb">
-                                <span class="team-title d-block alt-font text-white">Bryan Jonhson</span>
-                                <span class="team-sub-title text-small d-block text-white-transparent text-uppercase">Specialist consultant</span>
-                                <div class="social-icon w-100 position-absolute bottom-30px left-0px">
-                                    <a href="https://www.facebook.com/" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
-                                    <a href="https://www.instagram.com" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-instagram"></i></a>
-                                    <a href="https://twitter.com/" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-twitter"></i></a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <!-- end team member -->
-                    <!-- start team member -->
-                    <div class="col team-style-01 text-center xs-margin-15px-bottom wow animate__fadeIn" data-wow-delay="0.6s">
-                        <figure>
-                            <div class="team-member-image">
-                                <img alt="" src="https://via.placeholder.com/375x460">
-                                <div class="team-overlay bg-transparent-gradient-tussock-greenish-slate"></div>
-                            </div>
-                            <figcaption class="align-items-center justify-content-center d-flex flex-column padding-20px-lr padding-30px-tb">
-                                <span class="team-title d-block alt-font text-white">Jemmy Watson</span>
-                                <span class="team-sub-title text-small d-block text-white-transparent text-uppercase">Financial consultant</span>
-                                <div class="social-icon w-100 position-absolute bottom-30px left-0px">
-                                    <a href="https://www.facebook.com/" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
-                                    <a href="https://www.instagram.com" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-instagram"></i></a>
-                                    <a href="https://twitter.com/" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-twitter"></i></a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <!-- end team member -->
-                    <!-- start team member -->
-                    <div class="col team-style-01 text-center wow animate__fadeIn" data-wow-delay="0.8s">
-                        <figure>
-                            <div class="team-member-image">
-                                <img alt="" src="https://via.placeholder.com/375x460">
-                                <div class="team-overlay bg-transparent-gradient-tussock-greenish-slate"></div>
-                            </div>
-                            <figcaption class="align-items-center justify-content-center d-flex flex-column padding-20px-lr padding-30px-tb">
-                                <span class="team-title d-block alt-font text-white">Jeremy Dupont</span>
-                                <span class="team-sub-title text-small d-block text-white-transparent text-uppercase">Business consultant</span>
-                                <div class="social-icon w-100 position-absolute bottom-30px left-0px">
-                                    <a href="https://www.facebook.com/" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
-                                    <a href="https://www.instagram.com" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-instagram"></i></a>
-                                    <a href="https://twitter.com/" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-twitter"></i></a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <!-- end team member -->
-                    <!-- añadir más -->
-                    <!-- start team member -->
-                    <div class="col team-style-01 text-center wow animate__fadeIn mt-5" data-wow-delay="0.8s">
-                        <figure>
-                            <div class="team-member-image">
-                                <img alt="" src="https://via.placeholder.com/375x460">
-                                <div class="team-overlay bg-transparent-gradient-tussock-greenish-slate"></div>
-                            </div>
-                            <figcaption class="align-items-center justify-content-center d-flex flex-column padding-20px-lr padding-30px-tb">
-                                <span class="team-title d-block alt-font text-white">Jeremy Dupont</span>
-                                <span class="team-sub-title text-small d-block text-white-transparent text-uppercase">Business consultant</span>
-                                <div class="social-icon w-100 position-absolute bottom-30px left-0px">
-                                    <a href="https://www.facebook.com/" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
-                                    <a href="https://www.instagram.com" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-instagram"></i></a>
-                                    <a href="https://twitter.com/" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-twitter"></i></a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <!-- end team member -->
-                    <!-- start team member -->
-                    <div class="col team-style-01 text-center wow animate__fadeIn mt-5" data-wow-delay="0.8s">
-                        <figure>
-                            <div class="team-member-image">
-                                <img alt="" src="https://via.placeholder.com/375x460">
-                                <div class="team-overlay bg-transparent-gradient-tussock-greenish-slate"></div>
-                            </div>
-                            <figcaption class="align-items-center justify-content-center d-flex flex-column padding-20px-lr padding-30px-tb">
-                                <span class="team-title d-block alt-font text-white">Jeremy Dupont</span>
-                                <span class="team-sub-title text-small d-block text-white-transparent text-uppercase">Business consultant</span>
-                                <div class="social-icon w-100 position-absolute bottom-30px left-0px">
-                                    <a href="https://www.facebook.com/" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
-                                    <a href="https://www.instagram.com" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-instagram"></i></a>
-                                    <a href="https://twitter.com/" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-twitter"></i></a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <!-- end team member -->
-                    <!-- start team member -->
-                    <div class="col team-style-01 text-center wow animate__fadeIn mt-5" data-wow-delay="0.8s">
-                        <figure>
-                            <div class="team-member-image">
-                                <img alt="" src="https://via.placeholder.com/375x460">
-                                <div class="team-overlay bg-transparent-gradient-tussock-greenish-slate"></div>
-                            </div>
-                            <figcaption class="align-items-center justify-content-center d-flex flex-column padding-20px-lr padding-30px-tb">
-                                <span class="team-title d-block alt-font text-white">Jeremy Dupont</span>
-                                <span class="team-sub-title text-small d-block text-white-transparent text-uppercase">Business consultant</span>
-                                <div class="social-icon w-100 position-absolute bottom-30px left-0px">
-                                    <a href="https://www.facebook.com/" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
-                                    <a href="https://www.instagram.com" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-instagram"></i></a>
-                                    <a href="https://twitter.com/" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-twitter"></i></a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <!-- end team member -->
-                    <!-- start team member -->
-                    <div class="col team-style-01 text-center wow animate__fadeIn mt-5" data-wow-delay="0.8s">
-                        <figure>
-                            <div class="team-member-image">
-                                <img alt="" src="https://via.placeholder.com/375x460">
-                                <div class="team-overlay bg-transparent-gradient-tussock-greenish-slate"></div>
-                            </div>
-                            <figcaption class="align-items-center justify-content-center d-flex flex-column padding-20px-lr padding-30px-tb">
-                                <span class="team-title d-block alt-font text-white">Jeremy Dupont</span>
-                                <span class="team-sub-title text-small d-block text-white-transparent text-uppercase">Business consultant</span>
-                                <div class="social-icon w-100 position-absolute bottom-30px left-0px">
-                                    <a href="https://www.facebook.com/" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-facebook-f"></i></a>
-                                    <a href="https://www.instagram.com" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-instagram"></i></a>
-                                    <a href="https://twitter.com/" target="_blank" class="text-white"><i aria-hidden="true" class="fab fa-twitter"></i></a>
-                                </div>
-                            </figcaption>
-                        </figure>
-                    </div>
-                    <!-- end team member -->
-                </div>
-            </div>
-        </section>
-        <!-- Fin Nuestro Equipo Section -->
-
+        <!-- end section -->  
         <!-- start footer -->
         <footer class="footer-digital-agency footer-light">
             <div class="footer-top padding-six-tb lg-padding-eight-tb md-padding-50px-tb">
