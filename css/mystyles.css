@@ -114,6 +114,22 @@
     height: inherit;
 }
 
+.dropdown-hm{
+    font-size: 14px;
+    color: #232323;
+    padding: 9px 12px;
+    margin: 0;
+}
+
+.ul-dropdown-hm{
+    border: none;
+}
+
+.ul-dropdown-hm > li{
+    font-size: 15px;
+}
+
+
 @media (max-width: 991px) {
     .navbar-lg-hm{
         display: none;
