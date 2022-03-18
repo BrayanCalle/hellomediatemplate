@@ -129,6 +129,17 @@
     font-size: 15px;
 }
 
+/* Estrategia 360 */
+.texto-360{
+    font-size: 142px;
+}
+
+.lh-21{
+    line-height: 1.3125em;
+}
+
+
+
 
 @media (max-width: 991px) {
     .navbar-lg-hm{
