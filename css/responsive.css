@@ -2831,6 +2831,7 @@
 
     /*footer sticky*/
     .footer-sticky { position: relative !important; z-index: 0 !important; }
+    .footer-sticky-2 { position: inherit; }
 
 }
 
